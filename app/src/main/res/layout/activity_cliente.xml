@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".Cliente">
+
+    <EditText
+        android:id="@+id/editTextClientId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cédula del Cliente" />
+
+    <EditText
+        android:id="@+id/editTextClientName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre del Cliente" />
+
+    <EditText
+        android:id="@+id/editTextClientAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Dirección del Cliente" />
+
+    <EditText
+        android:id="@+id/editTextClientPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Teléfono del Cliente" />
+
+    <Button
+        android:id="@+id/buttonQueryClient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CONSULTAR" />
+
+    <Button
+        android:id="@+id/buttonInsertClient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="INSERTAR" />
+
+    <Button
+        android:id="@+id/buttonUpdateClient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ACTUALIZAR" />
+
+    <Button
+        android:id="@+id/buttonDeleteClient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ELIMINAR" />
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="editTextClienteId" type="id" />
+    <item name="editTextPedidoId" type="id" />
+    <item name="editTextDescripcionPedido" type="id" />
+    <item name="buttonConsultarCliente" type="id" />
+    <item name="buttonCrearPedido" type="id" />
+    <item name="buttonActualizarPedido" type="id" />
+    <item name="buttonConsultarPedido" type="id" />
+    <item name="buttonEliminarPedido" type="id" />
+</resources>

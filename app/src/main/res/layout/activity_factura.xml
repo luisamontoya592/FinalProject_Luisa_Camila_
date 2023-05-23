@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".Pedido">
+
+    <EditText
+        android:id="@+id/editTextClienteId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Cédula del Cliente"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editTextPedidoID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Código del Pedido"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/buttonConsultarCliente"
+        android:layout_width="383dp"
+        android:layout_height="wrap_content"
+        android:text="Consultar" />
+
+    <EditText
+        android:id="@+id/editTextPedidoId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Código del Pedido"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editTextDescripcionPedido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Descripción del Pedido"
+        android:gravity="start|top"
+        android:inputType="textMultiLine" />
+
+    <EditText
+        android:id="@+id/editTextDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxEms="8"
+        android:maxLength="8"
+        android:hint="Fecha del Pedido: DDMMAAAA"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/buttonCrearPedido"
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:text="Crear Pedido" />
+
+    <Button
+        android:id="@+id/buttonActualizarPedido"
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:text="Actualizar Pedido" />
+
+    <Button
+        android:id="@+id/buttonConsultarPedido"
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:text="Consultar Pedido" />
+
+    <Button
+        android:id="@+id/buttonEliminarPedido"
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:text="Eliminar Pedido" />
+
+</LinearLayout>
