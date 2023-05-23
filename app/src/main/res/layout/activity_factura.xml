@@ -60,25 +60,25 @@
         android:layout_width="379dp"
         android:layout_height="wrap_content"
         android:enabled="false"
-        android:text="Crear Pedido" />
+        android:text="CREAR FACTURA" />
 
     <Button
         android:id="@+id/buttonActualizarPedido"
         android:layout_width="379dp"
         android:layout_height="wrap_content"
         android:enabled="false"
-        android:text="Actualizar Pedido" />
+        android:text="ACTUALIZAR FACTURA" />
 
     <Button
         android:id="@+id/buttonConsultarPedido"
         android:layout_width="379dp"
         android:layout_height="wrap_content"
-        android:text="Consultar Pedido" />
+        android:text="CONSULTAR FACTURA" />
 
     <Button
         android:id="@+id/buttonEliminarPedido"
         android:layout_width="379dp"
         android:layout_height="wrap_content"
-        android:text="Eliminar Pedido" />
+        android:text="ELIMINAR FACTURA" />
 
 </LinearLayout>
