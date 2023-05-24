@@ -14,8 +14,8 @@ import androidx.appcompat.app.AppCompatActivity;
 public class Pedido extends AppCompatActivity {
     private static final String DB_NAME = "YourDatabaseName";
     private static final int DB_VERSION = 1;
-    private static final String TABLE_PEDIDO = "Pedido";
-    private static final String TABLE_CLIENTE = "Cliente";
+    private static final String TABLE_PEDIDO= "Pedido";
+    private static final String TABLE_CLIENTE= "Cliente";
 
     private EditText editTextClienteId, editTextPedidoId, editTextDescripcionPedido, editTextDate;
     private Button buttonConsultarCliente, buttonCrearPedido, buttonActualizarPedido, buttonConsultarPedido, buttonEliminarPedido;

@@ -14,10 +14,10 @@ import androidx.appcompat.app.AppCompatActivity;
 public class Factura extends AppCompatActivity {
     private static final String DB_NAME = "YourDatabaseName";
     private static final int DB_VERSION = 1;
-    private static final String TABLE_PEDIDO = "Pedido";
-    private static final String TABLE_CLIENTE = "Cliente";
-    private static final String TABLE_PRODUCTO = "Producto";
-    private static final String TABLE_FACTURA = "Factura";
+    private static final String TABLE_PEDIDO= "Pedido";
+    private static final String TABLE_CLIENTE= "Cliente";
+    private static final String TABLE_PRODUCTO= "Producto";
+    private static final String TABLE_FACTURA= "Factura";
 
     private EditText editTextClienteID, editTextPedidoID, editTextFacturaID, editTextValorFactura, editTextDateFactura, editTextProductoID;
     private Button buttonConsultarClientePedido, buttonCrearFactura, buttonActualizarFactura, buttonConsultarFactura, buttonEliminarFactura;

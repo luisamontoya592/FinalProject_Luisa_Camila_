@@ -13,9 +13,9 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class Producto extends AppCompatActivity {
-    private static final String DB_NAME = "YourDatabaseName";
-    private static final int DB_VERSION = 1;
-    private static final String TABLE_PRODUCTO = "Producto";
+    private static final String DB_NAME= "YourDatabaseName";
+    private static final int DB_VERSION= 1;
+    private static final String TABLE_PRODUCTO= "Producto";
 
     private EditText editTextProductId, editTextProductName, editTextProductValue, editTextProductManufacturer;
     private Button buttonInsertProduct, buttonUpdateProduct, buttonDeleteProduct, buttonQueryProduct;

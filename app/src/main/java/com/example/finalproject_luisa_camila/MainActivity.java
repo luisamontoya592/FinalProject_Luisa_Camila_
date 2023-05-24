@@ -70,8 +70,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void openFacturasActivity() {
-        Intent intent = new Intent(MainActivity.this, Factura.class);
-        startActivity(intent);
+        Intent intent1 = new Intent(MainActivity.this, Factura.class);
+        startActivity(intent1);
     }
 
 

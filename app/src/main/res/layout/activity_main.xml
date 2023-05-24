@@ -20,7 +20,7 @@
         android:id="@+id/buttonProductos"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Producto" />
+        android:text="PRODUCTO" />
 
     <Button
         android:id="@+id/buttonClientes"

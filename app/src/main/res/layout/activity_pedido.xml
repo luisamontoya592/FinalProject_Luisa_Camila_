@@ -49,7 +49,7 @@
         android:layout_marginBottom="16dp"
         android:maxEms="8"
         android:maxLength="8"
-        android:hint="Fecha del Pedido: DDMMAAAA"
+        android:hint="Fecha del pedido: DDMMAAAA"
         android:inputType="number" />
 
     <Button

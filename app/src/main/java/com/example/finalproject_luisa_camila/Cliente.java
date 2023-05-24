@@ -13,9 +13,9 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class Cliente extends AppCompatActivity {
-    private static final String DB_NAME = "YourDatabaseName";
-    private static final int DB_VERSION = 1;
-    private static final String TABLE_CLIENTE = "Cliente";
+    private static final String DB_NAME= "YourDatabaseName";
+    private static final int DB_VERSION= 1;
+    private static final String TABLE_CLIENTE= "Cliente";
 
     private EditText editTextClientId, editTextClientName, editTextClientAddress, editTextClientPhone;
     private Button buttonInsertClient, buttonUpdateClient, buttonDeleteClient, buttonQueryClient;

@@ -33,7 +33,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:hint="Teléfono del Cliente" />
+        android:hint="Teléfono del cliente" />
 
     <Button
         android:id="@+id/buttonQueryClient"
