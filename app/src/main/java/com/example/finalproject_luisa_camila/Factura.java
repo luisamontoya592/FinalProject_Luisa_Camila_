@@ -158,7 +158,7 @@ public class Factura extends AppCompatActivity {
             values.put("IdFactura", Integer.parseInt(IdFactura));
             values.put("IdCliente", Integer.parseInt(clienteId));
             values.put("IdProducto", Integer.parseInt(IdProducto));
-            values.put("IdPedido", Integer.parseInt(IdProducto));
+            values.put("IdPedido", Integer.parseInt(IdPedido));
             values.put("ValorFactura", Float.parseFloat(ValorFactura));
             values.put("FechaFactura", FechaFactura);
 
