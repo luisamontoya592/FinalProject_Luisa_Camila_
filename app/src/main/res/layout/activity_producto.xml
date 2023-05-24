@@ -11,48 +11,55 @@
         android:id="@+id/editTextProductId"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
         android:hint="Código del Producto" />
 
     <EditText
         android:id="@+id/editTextProductName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
         android:hint="Nombre del Producto" />
 
     <EditText
         android:id="@+id/editTextProductValue"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
         android:hint="Valor del Producto" />
 
     <EditText
         android:id="@+id/editTextProductManufacturer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
         android:hint="Fabricante del Producto" />
 
     <Button
         android:id="@+id/buttonQueryProduct"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="CONSULTAR" />
+        android:layout_marginBottom="16dp"
+        android:text="CONSULTAR PRODUCTO" />
 
     <Button
         android:id="@+id/buttonInsertProduct"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="INSERTAR" />
+        android:layout_marginBottom="16dp"
+        android:text="INSERTAR PRODUCTO" />
 
     <Button
         android:id="@+id/buttonUpdateProduct"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="ACTUALIZAR" />
+        android:layout_marginBottom="16dp"
+        android:text="ACTUALIZAR PRODUCTO" />
 
     <Button
         android:id="@+id/buttonDeleteProduct"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="ELIMINAR" />
+        android:text="ELIMINAR PRODUCTO" />
 
 </LinearLayout>

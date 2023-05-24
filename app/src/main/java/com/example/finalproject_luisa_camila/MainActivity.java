@@ -18,7 +18,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // Initialize views
         buttonProductos = findViewById(R.id.buttonProductos);
         buttonClientes = findViewById(R.id.buttonClientes);
         buttonPedidos = findViewById(R.id.buttonPedidos);
@@ -46,12 +45,12 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        /*buttonFacturas.setOnClickListener(new View.OnClickListener() {
+        buttonFacturas.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openFacturasActivity();
             }
-        });*/
+        });
     }
 
 
@@ -70,10 +69,10 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    /*private void openFacturasActivity() {
+    private void openFacturasActivity() {
         Intent intent = new Intent(MainActivity.this, Factura.class);
         startActivity(intent);
-    }*/
+    }
 
 
 }

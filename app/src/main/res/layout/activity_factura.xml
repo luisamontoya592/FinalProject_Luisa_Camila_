@@ -5,12 +5,13 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="16dp"
-    tools:context=".Pedido">
+    tools:context=".Factura">
 
     <EditText
-        android:id="@+id/editTextClienteId"
+        android:id="@+id/editTextClienteID"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
         android:ems="10"
         android:hint="Cédula del Cliente"
         android:inputType="number" />
@@ -19,66 +20,83 @@
         android:id="@+id/editTextPedidoID"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
         android:ems="10"
         android:hint="Código del Pedido"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editTextProductoID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:ems="10"
+        android:hint="Código del Producto"
         android:inputType="number" />
 
     <Button
-        android:id="@+id/buttonConsultarCliente"
-        android:layout_width="383dp"
-        android:layout_height="wrap_content"
-        android:text="Consultar" />
-
-    <EditText
-        android:id="@+id/editTextPedidoId"
+        android:id="@+id/buttonConsultarClientePedido"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Agregar Pedido" />
+
+    <EditText
+        android:id="@+id/editTextFacturaID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
         android:ems="10"
-        android:hint="Código del Pedido"
+        android:hint="Código de la Factura"
         android:inputType="number" />
 
     <EditText
-        android:id="@+id/editTextDescripcionPedido"
+        android:id="@+id/editTextValorFactura"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
         android:ems="10"
-        android:hint="Descripción del Pedido"
-        android:gravity="start|top"
-        android:inputType="textMultiLine" />
+        android:hint="Valor de la Factura"
+        android:inputType="numberDecimal" />
 
     <EditText
-        android:id="@+id/editTextDate"
+        android:id="@+id/editTextDateFactura"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:hint="Fecha de Factura: DDMMAAAA"
+        android:inputType="number"
         android:maxEms="8"
-        android:maxLength="8"
-        android:hint="Fecha del Pedido: DDMMAAAA"
-        android:inputType="number" />
+        android:maxLength="8" />
 
     <Button
-        android:id="@+id/buttonCrearPedido"
-        android:layout_width="379dp"
+        android:id="@+id/buttonCrearFactura"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
         android:enabled="false"
         android:text="CREAR FACTURA" />
 
     <Button
-        android:id="@+id/buttonActualizarPedido"
-        android:layout_width="379dp"
+        android:id="@+id/buttonActualizarFactura"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
         android:enabled="false"
         android:text="ACTUALIZAR FACTURA" />
 
     <Button
-        android:id="@+id/buttonConsultarPedido"
-        android:layout_width="379dp"
+        android:id="@+id/buttonConsultarFactura"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
         android:text="CONSULTAR FACTURA" />
 
     <Button
-        android:id="@+id/buttonEliminarPedido"
-        android:layout_width="379dp"
+        android:id="@+id/buttonEliminarFactura"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="ELIMINAR FACTURA" />
 
 </LinearLayout>
+

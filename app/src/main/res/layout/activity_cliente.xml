@@ -11,48 +11,56 @@
         android:id="@+id/editTextClientId"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
         android:hint="Cédula del Cliente" />
 
     <EditText
         android:id="@+id/editTextClientName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
         android:hint="Nombre del Cliente" />
 
     <EditText
         android:id="@+id/editTextClientAddress"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
         android:hint="Dirección del Cliente" />
 
     <EditText
         android:id="@+id/editTextClientPhone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
         android:hint="Teléfono del Cliente" />
 
     <Button
         android:id="@+id/buttonQueryClient"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="CONSULTAR" />
+        android:layout_marginBottom="16dp"
+        android:text="CONSULTAR CLIENTE" />
 
     <Button
         android:id="@+id/buttonInsertClient"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="INSERTAR" />
+        android:layout_marginBottom="16dp"
+        android:text="INSERTAR CLIENTE" />
 
     <Button
         android:id="@+id/buttonUpdateClient"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="ACTUALIZAR" />
+        android:layout_marginBottom="16dp"
+        android:text="ACTUALIZAR CLIENTE" />
 
     <Button
         android:id="@+id/buttonDeleteClient"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="ELIMINAR" />
+        android:text="ELIMINAR CLIENTE" />
 
 </LinearLayout>
+

@@ -11,20 +11,23 @@
         android:id="@+id/editTextClienteId"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
         android:ems="10"
         android:hint="Cédula del Cliente"
         android:inputType="number" />
 
     <Button
         android:id="@+id/buttonConsultarCliente"
-        android:layout_width="383dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
         android:text="Consultar Cliente" />
 
     <EditText
-        android:id="@+id/editTextPedidoId"
+        android:id="@+id/editTextProductoId"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
         android:ems="10"
         android:hint="Código del Pedido"
         android:inputType="number" />
@@ -33,6 +36,7 @@
         android:id="@+id/editTextDescripcionPedido"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
         android:ems="10"
         android:hint="Descripción del Pedido"
         android:gravity="start|top"
@@ -42,6 +46,7 @@
         android:id="@+id/editTextDate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
         android:maxEms="8"
         android:maxLength="8"
         android:hint="Fecha del Pedido: DDMMAAAA"
@@ -49,28 +54,32 @@
 
     <Button
         android:id="@+id/buttonCrearPedido"
-        android:layout_width="379dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
         android:enabled="false"
         android:text="Crear Pedido" />
 
     <Button
         android:id="@+id/buttonActualizarPedido"
-        android:layout_width="379dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
         android:enabled="false"
         android:text="Actualizar Pedido" />
 
     <Button
         android:id="@+id/buttonConsultarPedido"
-        android:layout_width="379dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
         android:text="Consultar Pedido" />
 
     <Button
         android:id="@+id/buttonEliminarPedido"
-        android:layout_width="379dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Eliminar Pedido" />
 
 </LinearLayout>
+

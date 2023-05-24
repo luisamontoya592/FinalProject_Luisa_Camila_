@@ -3,7 +3,6 @@ package com.example.finalproject_luisa_camila;
 import android.content.ContentValues;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
-import android.database.sqlite.SQLiteOpenHelper;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -28,9 +27,8 @@ public class Pedido extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pedido);
 
-        // Initialize views
         editTextClienteId = findViewById(R.id.editTextClienteId);
-        editTextPedidoId = findViewById(R.id.editTextPedidoId);
+        editTextPedidoId = findViewById(R.id.editTextProductoId);
         editTextDescripcionPedido = findViewById(R.id.editTextDescripcionPedido);
         editTextDate= findViewById(R.id.editTextDate);
         buttonConsultarCliente = findViewById(R.id.buttonConsultarCliente);
@@ -39,7 +37,6 @@ public class Pedido extends AppCompatActivity {
         buttonConsultarPedido = findViewById(R.id.buttonConsultarPedido);
         buttonEliminarPedido = findViewById(R.id.buttonEliminarPedido);
 
-        // Create or open the database
         database = openOrCreateDatabase(DB_NAME, MODE_PRIVATE, null);
         createTablePedido();
         createTableCliente();
@@ -95,11 +92,10 @@ public class Pedido extends AppCompatActivity {
     private void consultarCliente() {
         int clienteId = Integer.parseInt(editTextClienteId.getText().toString());
 
-        // Perform the query to check if the client exists
         Cursor cursor = database.rawQuery("SELECT * FROM " + TABLE_CLIENTE + " WHERE IdCliente = " + clienteId, null);
 
         if (cursor.moveToFirst()) {
-            // Client exists, enable the buttons for creating and updating pedido
+
             buttonCrearPedido.setEnabled(true);
             buttonActualizarPedido.setEnabled(true);
             editTextPedidoId.setText("");
@@ -107,7 +103,7 @@ public class Pedido extends AppCompatActivity {
             editTextDate.setText("");
 
         } else {
-            // Client does not exist, show an error message and disable the buttons
+
             buttonCrearPedido.setEnabled(false);
             buttonActualizarPedido.setEnabled(false);
             Toast.makeText(this, "No existe el cliente, debe crearlo", Toast.LENGTH_SHORT).show();
@@ -165,7 +161,6 @@ public class Pedido extends AppCompatActivity {
         values.put("DescripcionPedido", descripcionPedido);
         values.put("FechaPedido", FechaPedido);
 
-        // Update the pedido in the database
         int rowsAffected = database.update(TABLE_PEDIDO, values, "IdPedido = " + pedidoId, null);
 
         if (rowsAffected > 0) {
